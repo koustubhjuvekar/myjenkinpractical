@@ -1,20 +1,15 @@
-import java.util.Scanner;
+// File: SwatCharacters.java
 
-public class myfile {
+public class SwatCharacters {
     public static void main(String[] args) {
-        // Create Scanner object to take input
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-        int number = scanner.nextInt(); // taking integer input
-
-        // Check even or odd
-        if (number % 2 == 0) {
-            System.out.println(number + " is Even.");
-        } else {
-            System.out.println(number + " is Odd.");
-        }
-
-        scanner.close(); // close the scanner
+        System.out.println("S.W.A.T. Series - Character Info");
+        System.out.println("---------------------------------");
+        System.out.println("Officer Zoe Powell is a skilled and fearless member of the SWAT team.");
+        System.out.println("She brings tactical expertise and strong instincts to every mission.");
+        System.out.println();
+        System.out.println("Officer Alexis Cabrera is a highly capable and confident team player.");
+        System.out.println("She's known for her precision, determination, and team spirit in the field.");
+        System.out.println();
+        System.out.println("Together, Powell and Cabrera represent the strength and diversity of the team.");
     }
 }
